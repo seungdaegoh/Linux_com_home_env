@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/seungdae.goh/ref_src/msm8930'
+let g:netrw_dirhist_2='/home/seungdae.goh/source_gh14_kk_mr1_release/AUTO_SRC_03-11-2014'
+let g:netrw_dirhist_3='/home/seungdae.goh/source_gh14_kk_mr1_release/AUTO_SRC_03-17-2014/android'
+let g:netrw_dirhist_4='/home/seungdae.goh/my_src/audio_sinario_lover'
+let g:netrw_dirhist_5='/home/seungdae.goh/source_gh14_kk_mr1_release/AUTO_SRC_03-26-2014/android/external/tinyalsa/include'
+let g:netrw_dirhist_6='/home/seungdae.goh'
+let g:netrw_dirhist_7='/home/seungdae.goh/work'
