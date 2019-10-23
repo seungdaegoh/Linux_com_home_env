@@ -1,7 +1,11 @@
 " configure expanding of tabs for various file types
-au BufRead,BufNewFile *.py set noexpandtab
-au BufRead,BufNewFile *.c set expandtab
+set noexpandtab
+
+au BufRead,BufNewFile *.py set expandtab
 au BufRead,BufNewFile *.h set expandtab
+
+au BufRead,BufNewFile *.cpp set expandtab
+au BufRead,BufNewFile *.hpp set expandtab
 au BufRead,BufNewFile Makefile* set noexpandtab
 
 

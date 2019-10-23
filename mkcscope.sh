@@ -68,7 +68,7 @@ echo " "
 echo "param [$*] add [$ADD_DIR] "
 echo "################################### "
 echo "indexing $@ $ADD_DIR cscope.files "
-find $ADD_DIR $@ -type f \(  -iname '*.c' -o -iname '*.cpp' -o -iname '*.cc' -o -iname '*.h' -o -iname '*.asm' -o -iname '*.java' -o -iname '*.jni' -o -iname '*.mk' -o -iname '*.xml' -o -iname '*.aidl' -o -iname '*.s' -o -iname '*.S' -o -iname '*.rc' -o -iname '*defconfig' -o -iname '*.dts' -o -iname '*.dtsi' -o -iname '*.config' -o -iname 'Makefile' -o -iname 'Kconfig' -o -iname '*.sh' -o -iname '*.conf' -o -iname '*.inc' -o -iname 'bbclass' -o -iname '*.bb' -o -iname '*.bbappend' \) \
+find $ADD_DIR $@ -type f \(  -iname '*.c' -o -iname '*.cpp' -o -iname '*.cc' -o -iname '*.h' -o -iname '*.hpp' -o -iname '*.asm' -o -iname '*.go' -o -iname '*.py'   -o -iname '*.java' -o -iname '*.jni' -o -iname '*.mk' -o -iname '*.xml' -o -iname '*.aidl' -o -iname '*.s' -o -iname '*.S' -o -iname '*.rc' -o -iname '*defconfig' -o -iname '*.dts' -o -iname '*.dtsi' -o -iname '*.config' -o -iname 'Makefile' -o -iname 'Kconfig' -o -iname '*.sh' -o -iname '*.conf' -o -iname '*.inc' -o -iname 'bbclass' -o -iname '*.bb' -o -iname '*.bbappend' \) \
 	-print >> ${CSCOPE_FILES}
 fi
 
